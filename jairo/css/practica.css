@@ -1,0 +1,52 @@
+#contenedor{
+    background-color: skyblue; /* Color de fondo*/
+    width: 100%; /* ancho */
+}
+#cabecera{
+    background-color: gainsboro; /* Color de fondo*/
+}
+#contenido{
+    background-color: black;
+    width: 100%;
+}
+#contenido #articulos{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* solo se aplica al ultimo elemento en la jerarquia */
+#contenido #articulos td{
+    border: 1px solid black;
+    background-color: floralwhite;
+}
+#pie{
+    background-color: gainsboro;
+}
+#menu{
+    width: 100%;
+    text-align: center;
+}
+
+#art1{
+    width: 70%;
+}
+#lorem{
+    width: 80%;
+}
+#contenido #segundaparte{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#parte2{
+    background-color: floralwhite;
+    width: 70%;
+
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+}
